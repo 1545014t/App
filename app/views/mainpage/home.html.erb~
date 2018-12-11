@@ -1,2 +1,15 @@
-<h1>Mainpage#home</h1>
-<p>Find me in app/views/mainpage/home.html.erb</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home|Ramen Map</title>
+  </head>
+  <body>
+    <h1>Ramen Map</h1>
+	<p>
+
+	  This is homepage for ramenmap
+	  Find me in app/views/mainpage/home.html.erb
+
+	</p>
+  </body>
+</html>
