@@ -3,8 +3,8 @@ require 'test_helper'
 class MainpageControllerTest < ActionDispatch::IntegrationTest
   
   test "should get root" do
-    get FILL_IN
-    assert_response FILL_IN
+    get mainpage_home_url
+    assert_response :success
   end
 
   test "should get home" do
@@ -13,7 +13,7 @@ class MainpageControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get sub" do
-    get mainpage_sub_yrl
+    get mainpage_sub_url
     assert_response :success
   end
 
