@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Home|Ramen Map</title>
-  </head>
-  <body>
-    <h1>Ramen Map</h1>
-	<p>
-
-	  This is homepage for ramenmap
-	  Find me in app/views/mainpage/home.html.erb
-
-	</p>
-  </body>
-</html>
+<%provide(:title,"Home")%>
+<h1>Ramen Map</h1>
+<p>
+  This is homepage for ramenmap	  Find me in app/views/mainpage/home.html.erb
+</p>
+ 
